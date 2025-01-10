@@ -1,0 +1,13 @@
+prefix=/Users/balachanderb/Documents/MachineLearning_project/venv
+exec_prefix=/Users/balachanderb/Documents/MachineLearning_project/venv
+libdir=/Users/balachanderb/Documents/MachineLearning_project/venv/lib
+sharedlibdir=/Users/balachanderb/Documents/MachineLearning_project/venv/lib
+includedir=/Users/balachanderb/Documents/MachineLearning_project/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
